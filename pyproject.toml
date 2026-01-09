@@ -1,0 +1,15 @@
+[project]
+name = "analysis-script"
+version = "0.1.0"
+description = "This project supports generic analysis scripts."
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "jupyter>=1.1.1",
+    "matplotlib>=3.10.8",
+    "numpy>=2.4.0",
+    "scipy>=1.16.3",
+]
+
+[dependency-groups]
+dev = []
