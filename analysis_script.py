@@ -10,6 +10,7 @@ imports for a few useful libraries:  numpy, scipy, and matplotlib.
 from matplotlib import __version__ as mpl_version
 from numpy import __version__ as np_version
 from scipy import __version__ as scp_version
+from pandas import __version__ as pd_version
 
 # Uncomment the following line to import the fft and ifft modules from
 # scipy's fft library.  Use this as a model for your own scipy imports.
@@ -27,6 +28,10 @@ from scipy import __version__ as scp_version
 ###
 # import numpy as np
 
+# Uncomment the following line to import pandas and refer to it as pd.
+# This is the standard way of handling pandas.
+###
+# import pandas as pd
 
 def main():
     """
@@ -43,6 +48,7 @@ def main():
     print(f"numpy version:  {np_version}")
     print(f"matplotlib version:  {mpl_version}")
     print(f"scipy version:  {scp_version}")
+    print(f"pandas version:  {pd_version}")
 
 
 # Do not add code below this line unless you know what you are doing.
