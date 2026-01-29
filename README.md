@@ -26,7 +26,7 @@ This repository is essentially a template which can be used to create data analy
 ## Use a Jupyter Lab Notebook
 Issue the following command on the command line to start a Jupyter Lab server on your computer:
 ```bash
-uv run jupyter server
+uv run jupyter lab
 ```
 This command will install Python (if necessary), download and install the necessary supporting libraries, and start a Jupyter Server. A new window should open on your browser containing the Jupyter interface.  You may create your own Jupyter notebook or use `analysis_script.ipynb` as a starting point.
 
